@@ -9,7 +9,7 @@ package kz.my.english.stemmer;
     This class implements the PORTER stemming algorithm, which
     is fully described in "An algorithm for suffix stripping",
     M.F. Porter (1980), _Program_, Vol. 14, No. 3, pp. 130-137
-
+     check
 ***************************************************************
 */
 
