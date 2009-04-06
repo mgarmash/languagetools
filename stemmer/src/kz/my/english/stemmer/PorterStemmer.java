@@ -9,7 +9,7 @@ package kz.my.english.stemmer;
     This class implements the PORTER stemming algorithm, which
     is fully described in "An algorithm for suffix stripping",
     M.F. Porter (1980), _Program_, Vol. 14, No. 3, pp. 130-137
-     check
+
 ***************************************************************
 */
 
@@ -20,8 +20,8 @@ public class PorterStemmer {
         if (str.length() > 0) {
             // all characters must be letters
             char[] c = str.toCharArray();
-            for (int i = 0; i < c.length; i++) {
-                if (!Character.isLetter(c[i]))
+            for (char aC : c) {
+                if (!Character.isLetter(aC))
                     return "Invalid term";
             }
         } else {
@@ -186,7 +186,6 @@ public class PorterStemmer {
         return str;
     } // end step2
 
-
     protected String step3 (String str) {
         // (m > 0) ICATE -> IC
         if ((str.endsWith("icate")) &&
@@ -219,7 +218,6 @@ public class PorterStemmer {
         } // end if
         return str;
     } // end step3
-
 
     protected String step4 (String str) {
         if ((str.endsWith("al")) &&
@@ -301,7 +299,6 @@ public class PorterStemmer {
         return str;
     } // end step4
 
-
     protected String step5a (String str) {
         // (m > 1) E ->
         if ((stringMeasure(str.substring(0, str.length() - 1)) > 1) &&
@@ -316,7 +313,6 @@ public class PorterStemmer {
             return str;
     } // end step5a
 
-
     protected String step5b (String str) {
         // (m > 1 and *d and *L) ->
         if (str.endsWith("l") &&
@@ -327,7 +323,6 @@ public class PorterStemmer {
             return str;
         }
     } // end step5b
-
 
     /*
        -------------------------------------------------------
@@ -343,28 +338,22 @@ public class PorterStemmer {
     // does string contain a vowel?
     protected boolean containsVowel(String str) {
         char[] strchars = str.toCharArray();
-        for (int i = 0; i < strchars.length; i++) {
-            if (isVowel(strchars[i]))
+        for (char strchar : strchars) {
+            if (isVowel(strchar))
                 return true;
         }
         // no aeiou but there is y
-        if (str.indexOf('y') > -1)
-            return true;
-        else
-            return false;
+        return str.indexOf('y') > -1;
     } // end function
 
     // is char a vowel?
     public boolean isVowel(char c) {
-        if ((c == 'a') ||
-            (c == 'e') ||
-            (c == 'i') ||
-            (c == 'o') ||
-            (c == 'u'))
-            return true;
-        else
-            return false;
-    } // end function
+        return (c == 'a') ||
+                (c == 'e') ||
+                (c == 'i') ||
+                (c == 'o') ||
+                (c == 'u');
+    }
 
     // does string end with a double consonent?
     protected boolean endsWithDoubleConsonent(String str) {
@@ -382,8 +371,8 @@ public class PorterStemmer {
         boolean vowelSeen = false;
         char[] strchars = str.toCharArray();
 
-        for (int i = 0; i < strchars.length; i++) {
-            if (isVowel(strchars[i])) {
+        for (char strchar : strchars) {
+            if (isVowel(strchar)) {
                 vowelSeen = true;
             } else if (vowelSeen) {
                 count++;
@@ -395,7 +384,7 @@ public class PorterStemmer {
 
     // does stem end with CVC?
     protected boolean endsWithCVC (String str) {
-        char c, v, c2 = ' ';
+        char c, v, c2;
         if (str.length() >= 3) {
             c = str.charAt(str.length() - 1);
             v = str.charAt(str.length() - 2);
@@ -416,4 +405,4 @@ public class PorterStemmer {
             return true;
         }
     } // end function
-} // end class
+}
