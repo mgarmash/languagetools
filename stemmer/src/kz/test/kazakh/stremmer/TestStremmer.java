@@ -1,15 +1,11 @@
 package kz.test.kazakh.stremmer;
 
 import junit.framework.TestCase;
+import kz.my.kazakh.stemmer.Stemmer;
 
-import java.util.Properties;
-import java.util.List;
-import java.util.ArrayList;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.File;
-
-import kz.my.kazakh.stemmer.Stemmer;
+import java.util.Properties;
 
 /**
  * Тестирование стеммера казахского языка.
@@ -40,5 +36,11 @@ public class TestStremmer extends TestCase {
             FileOutputStream outStream = new FileOutputStream ("Errors.xml");
             out.storeToXML(outStream, "Errors");
         }
+    }
+
+    public void test2() throws Exception {
+        String test = "ІеҒрҮҰҚЗЛГрпЬДжӨӨҺ";
+
+        assertEquals("іеғрүұқзлгрпьджөөһ", test.toLowerCase());
     }
 }

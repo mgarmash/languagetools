@@ -54,7 +54,7 @@ public class PorterStemmer {
         } else {
             return str;
         }
-    } // end step1a
+    }
 
     protected String step1b (String str) {
         // (m > 0) EED -> EE
@@ -73,7 +73,7 @@ public class PorterStemmer {
             return step1b2(str.substring(0, str.length() - 3));
         } // end if
         return str;
-    } // end step1b
+    }
 
     protected String step1b2 (String str) {
         // AT -> ATE
@@ -90,7 +90,7 @@ public class PorterStemmer {
         } else {
             return str;
         }
-    } // end step1b2
+    }
 
     protected String step1c(String str) {
         // (*v*) Y -> I
@@ -99,7 +99,7 @@ public class PorterStemmer {
                 return str.substring(0, str.length() - 1) + "i";
         } // end if
         return str;
-    } // end step1c
+    }
 
     protected String step2 (String str) {
         // (m > 0) ATIONAL -> ATE
@@ -184,7 +184,7 @@ public class PorterStemmer {
             return str.substring(0, str.length() - 5) + "le";
         } // end if
         return str;
-    } // end step2
+    }
 
     protected String step3 (String str) {
         // (m > 0) ICATE -> IC
@@ -217,7 +217,7 @@ public class PorterStemmer {
             return str.substring(0, str.length() - 4);
         } // end if
         return str;
-    } // end step3
+    }
 
     protected String step4 (String str) {
         if ((str.endsWith("al")) &&
@@ -297,7 +297,7 @@ public class PorterStemmer {
             return str.substring(0, str.length() - 3);
         } // end if
         return str;
-    } // end step4
+    }
 
     protected String step5a (String str) {
         // (m > 1) E ->
@@ -311,7 +311,7 @@ public class PorterStemmer {
             return str.substring(0, str.length() - 1);
         else
             return str;
-    } // end step5a
+    }
 
     protected String step5b (String str) {
         // (m > 1 and *d and *L) ->
@@ -322,18 +322,13 @@ public class PorterStemmer {
         } else {
             return str;
         }
-    } // end step5b
+    }
 
-    /*
-       -------------------------------------------------------
-       The following are functions to help compute steps 1 - 5
-       -------------------------------------------------------
-    */
-
+    /* The following are functions to help compute steps 1 - 5 */
     // does string end with 's'?
     protected boolean endsWithS(String str) {
         return str.endsWith("s");
-    } // end function
+    } 
 
     // does string contain a vowel?
     protected boolean containsVowel(String str) {
@@ -344,7 +339,7 @@ public class PorterStemmer {
         }
         // no aeiou but there is y
         return str.indexOf('y') > -1;
-    } // end function
+    }
 
     // is char a vowel?
     public boolean isVowel(char c) {
@@ -363,7 +358,7 @@ public class PorterStemmer {
                 return true;
         }
         return false;
-    } // end function
+    }
 
     // returns a CVC measure for the string
     protected int stringMeasure(String str) {
@@ -380,7 +375,7 @@ public class PorterStemmer {
             }
         } // end for
         return count;
-    } // end function
+    }
 
     // does stem end with CVC?
     protected boolean endsWithCVC (String str) {
@@ -404,5 +399,5 @@ public class PorterStemmer {
         } else {
             return true;
         }
-    } // end function
+    }
 }
