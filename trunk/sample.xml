@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+ <comment>Hi</comment>
+ <entry key="foo">bar</entry>
+ <entry key="fu">baz</entry>
+ <entry key="мейірбандығының">мейір</entry>
+ <entry key="әншілеріңізденбіз">ән</entry>
+</properties>
