@@ -26,8 +26,8 @@ public class TestStremmer extends TestCase {
             String key = (String) str;
             String value = (String) in.get(key);
 
-            Stemmer stemmer = new Stemmer();
-            String st = stemmer.stremming(key);
+            Stemmer stemmer = Stemmer.getInstance();
+            String st = stemmer.stemming(key);
 
             if(!value.equals(st)) out.setProperty(key, st);
         }
@@ -51,6 +51,7 @@ public class TestStremmer extends TestCase {
             if (Character.isDigit(ch)) {
                 System.out.println("char is digit "+ch);
             }
+
             if (!Character.isLetter(ch)) {
                 System.out.println("char is not letter {" + ch + "}");
             }
