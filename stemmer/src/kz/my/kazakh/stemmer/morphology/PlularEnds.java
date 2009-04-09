@@ -11,10 +11,11 @@ import java.util.List;
  * Time: 12:00:51
  */
 public class PlularEnds {
-    List<String> list;
+    protected List<String> list;
 
     protected void initPluralEnds() {
         list = new ArrayList<String>();
+        //
         list.add("лар"); list.add("лер");
         list.add("дар"); list.add("дер");
         list.add("тар"); list.add("тер");
