@@ -294,6 +294,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hunspell/hunspell.iml" filepath="$PROJECT_DIR$/hunspell/hunspell.iml" />
       <module fileurl="file://$PROJECT_DIR$/stemmer/stemmer.iml" filepath="$PROJECT_DIR$/stemmer/stemmer.iml" />
     </modules>
   </component>
@@ -320,20 +321,6 @@
         <entry key="$PROJECT_DIR$">
           <value>
             <SvnBranchConfiguration>
-              <option name="branchMap">
-                <map>
-                  <entry key="https://languagetools.googlecode.com/svn/branches">
-                    <value>
-                      <list />
-                    </value>
-                  </entry>
-                  <entry key="https://languagetools.googlecode.com/svn/tags">
-                    <value>
-                      <list />
-                    </value>
-                  </entry>
-                </map>
-              </option>
               <option name="branchUrls">
                 <list>
                   <option value="https://languagetools.googlecode.com/svn/branches" />
@@ -425,6 +412,14 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES />
+    </library>
+    <library name="hunspell">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/hunspell/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$PROJECT_DIR$/hunspell/lib" recursive="false" />
     </library>
   </component>
 </project>

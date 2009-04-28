@@ -16,13 +16,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/PlularEnds.java" afterPath="$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/PlularEnds.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/Stemmer.java" afterPath="$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/Stemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hunspell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hunspell/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hunspell/src/kz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languageTools.iws" afterPath="$PROJECT_DIR$/languageTools.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stemmer/src/kz/test/kazakh/stremmer/TestStremmer.java" afterPath="$PROJECT_DIR$/stemmer/src/kz/test/kazakh/stremmer/TestStremmer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languageTools.ipr" afterPath="$PROJECT_DIR$/languageTools.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hunspell/hunspell.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hunspell/src/kz/home" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hunspell/src/kz/home/HunspellMain.java" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="languageTools.iws" />
+    <ignored path=".idea/workspace.xml" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="Commander">
@@ -78,48 +82,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Stemmer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/Stemmer.java">
+      <file leaf-file-name="HunspellMain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/HunspellMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="22" selection-start="404" selection-end="404" vertical-scroll-proportion="0.2776382">
-              <folding>
-                <element signature="method#Stemmer#0;class#Stemmer#0" expanded="false" />
-                <element signature="method#getInstance#0;class#Stemmer#0" expanded="false" />
-                <element signature="method#stemming#0;class#Stemmer#0" expanded="false" />
-                <element signature="method#checkWord#0;class#Stemmer#0" expanded="false" />
-                <element signature="method#removeComplexWord#0;class#Stemmer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaseEnds.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/CaseEnds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#init#0;class#CaseEnds#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlularEnds.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/PlularEnds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="10" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1239255021640" expanded="true" signature="49:92" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestStremmer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stemmer/src/kz/test/kazakh/stremmer/TestStremmer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="21" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
+            <state line="33" column="30" selection-start="731" selection-end="731" vertical-scroll-proportion="0.4447236">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hunspell.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/Hunspell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="28" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="docComment;class#Hunspell#0" expanded="false" />
+                <element signature="docComment;field#hunspell#0;class#Hunspell#0" expanded="false" />
+                <element signature="docComment;field#hsl#0;class#Hunspell#0" expanded="false" />
+                <marker date="1240918360671" expanded="false" signature="798:893" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="true" signature="994:1035" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="1041:1248" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="true" signature="1363:1508" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="1590:1680" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="1686:2237" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="2335:4024" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="4030:4220" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="4293:4618" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="4696:6086" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="6092:6181" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="6268:6493" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="6610:6936" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="6942:7108" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="7164:7264" placeholder="{...}" />
+                <element signature="docComment;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="docComment;field#hunspellDict#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="docComment;field#encoding#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="docComment;method#Dictionary#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="method#Dictionary#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <marker date="1240918360671" expanded="false" signature="8504:8557" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="8588:8757" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="8767:8883" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="8931:9179" placeholder="{...}" />
+                <marker date="1240918360671" expanded="false" signature="9189:9355" placeholder="/**...*/" />
+                <marker date="1240918360671" expanded="false" signature="9459:9524" placeholder="{...}" />
+                <element signature="docComment;method#suggest#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="method#suggest#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="docComment;method#stem#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+                <element signature="method#stem#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,120 +162,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectPane">
-    <subPane>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="languageTools" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="languageTools" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="languageTools" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="languageTools" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kz" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="languageTools" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kz" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="my" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="languageTools" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kz" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="my" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kazakh" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="stemmer" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </subPane>
+    <subPane />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -329,28 +227,18 @@
       <recent name="kz.my.english.porter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStremmer.test3">
-    <tempConfiguration default="false" name="TestStremmer.test3" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
-      <pattern>
-        <option name="PATTERN" value="kz.test.kazakh.stremmer.*" />
-        <option name="ENABLED" value="true" />
-      </pattern>
-      <module name="stemmer" />
+  <component name="RunManager" selected="Application.HunspellMain">
+    <tempConfiguration default="false" name="HunspellMain" type="Application" factoryName="Application" enabled="false" merge="false" runner="emma">
+      <option name="MAIN_CLASS_NAME" value="kz.home.HunspellMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="kz.test.kazakh.stremmer" />
-      <option name="MAIN_CLASS_NAME" value="kz.test.kazakh.stremmer.TestStremmer" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+      <module name="hunspell" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -436,7 +324,7 @@
       <envs />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestStremmer.test3" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HunspellMain" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -493,7 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="972" extended-state="0" />
+    <frame x="-4" y="-4" width="1288" height="972" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
@@ -511,17 +399,24 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18689321" sideWeight="0.6618005" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18689321" sideWeight="0.6618005" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56082726" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Hibernate Tools" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.78699553" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296837" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" />
+      <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841328" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
+      <window_info id="Slice" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="9" side_tool="false" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -599,50 +494,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk1.6.0_11/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="docComment;class#Exception#0" expanded="false" />
-            <element signature="docComment;method#Exception#0;class#Exception#0" expanded="false" />
-            <element signature="docComment;method#Exception#1;class#Exception#0" expanded="false" />
-            <element signature="method#Exception#1;class#Exception#0" expanded="false" />
-            <element signature="docComment;method#Exception#2;class#Exception#0" expanded="false" />
-            <element signature="method#Exception#2;class#Exception#0" expanded="false" />
-            <element signature="docComment;method#Exception#3;class#Exception#0" expanded="false" />
-            <element signature="method#Exception#3;class#Exception#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/exept/ABaseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/exept/DigitContainException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/exept/SpecCharacterContainException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk1.6.0_11/src.zip!/javax/swing/text/Highlighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk1.6.0_11/src.zip!/javax/swing/text/LayeredHighlighter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="56" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
@@ -748,15 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/PlularEnds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1239255021640" expanded="true" signature="49:92" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/Noun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="18" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
@@ -764,11 +606,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/CaseEnds.java">
+    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/PlularEnds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
+        <state line="17" column="10" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#init#0;class#CaseEnds#0" expanded="false" />
+            <marker date="1239255021640" expanded="true" signature="49:92" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -782,14 +624,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/Stemmer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="404" selection-end="404" vertical-scroll-proportion="0.2776382">
+        <state line="15" column="22" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="docComment;class#Stemmer#0" expanded="false" />
             <element signature="method#Stemmer#0;class#Stemmer#0" expanded="false" />
             <element signature="method#getInstance#0;class#Stemmer#0" expanded="false" />
             <element signature="method#stemming#0;class#Stemmer#0" expanded="false" />
             <element signature="method#checkWord#0;class#Stemmer#0" expanded="false" />
             <element signature="method#removeComplexWord#0;class#Stemmer#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/hunspell/lib/jna.jar!/com/sun/jna/Library.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/HunspellLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#HunspellLibrary#0" expanded="false" />
+            <element signature="docComment;method#Hunspell_create#0;class#HunspellLibrary#0" expanded="false" />
+            <element signature="docComment;method#Hunspell_destroy#0;class#HunspellLibrary#0" expanded="false" />
+            <element signature="docComment;method#Hunspell_spell#0;class#HunspellLibrary#0" expanded="false" />
+            <element signature="docComment;method#Hunspell_get_dic_encoding#0;class#HunspellLibrary#0" expanded="false" />
+            <element signature="docComment;method#Hunspell_suggest#0;class#HunspellLibrary#0" expanded="false" />
+            <element signature="docComment;method#Hunspell_stem#0;class#HunspellLibrary#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stemmer/src/kz/my/kazakh/stemmer/morphology/CaseEnds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk1.6.0_11/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/Hunspell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="28" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#Hunspell#0" expanded="false" />
+            <element signature="docComment;field#hunspell#0;class#Hunspell#0" expanded="false" />
+            <element signature="docComment;field#hsl#0;class#Hunspell#0" expanded="false" />
+            <marker date="1240918360671" expanded="false" signature="798:893" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="true" signature="994:1035" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="1041:1248" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="true" signature="1363:1508" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="1590:1680" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="1686:2237" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="2335:4024" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="4030:4220" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="4293:4618" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="4696:6086" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="6092:6181" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="6268:6493" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="6610:6936" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="6942:7108" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="7164:7264" placeholder="{...}" />
+            <element signature="docComment;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="docComment;field#hunspellDict#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="docComment;field#encoding#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="docComment;method#Dictionary#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="method#Dictionary#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <marker date="1240918360671" expanded="false" signature="8504:8557" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="8588:8757" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="8767:8883" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="8931:9179" placeholder="{...}" />
+            <marker date="1240918360671" expanded="false" signature="9189:9355" placeholder="/**...*/" />
+            <marker date="1240918360671" expanded="false" signature="9459:9524" placeholder="{...}" />
+            <element signature="docComment;method#suggest#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="method#suggest#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="docComment;method#stem#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+            <element signature="method#stem#0;class#Dictionary#0;class#Hunspell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/HunspellMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="30" selection-start="731" selection-end="731" vertical-scroll-proportion="0.4447236">
+          <folding />
         </state>
       </provider>
     </entry>
