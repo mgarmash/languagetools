@@ -79,7 +79,7 @@
       <file leaf-file-name="HunspellMain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/HunspellMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.2625628">
+            <state line="78" column="54" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.50879395">
               <folding />
             </state>
           </provider>
@@ -403,7 +403,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.87712896" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39902675" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Hibernate Tools" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.78699553" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296837" sideWeight="0.5" order="8" side_tool="false" />
@@ -716,7 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hunspell/src/kz/home/HunspellMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.2625628">
+        <state line="78" column="54" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.50879395">
           <folding />
         </state>
       </provider>
