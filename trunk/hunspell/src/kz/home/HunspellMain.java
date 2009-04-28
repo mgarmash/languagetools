@@ -54,11 +54,11 @@ public class HunspellMain {
                 }
 
                 System.err.println("Loading Hunspell");
-                String dir = "/home/ff/projects/hunspell";
+                String dir = "c:\\_MY\\languageTools\\hunspell\\dict\\en_GB\\";
 
                 if (System.getProperties().containsKey("root")) dir = System.getProperty("root");
 
-                Hunspell.Dictionary d = Hunspell.getInstance().getDictionary(dir + "/dict/da_DK");
+                Hunspell.Dictionary dictionary = Hunspell.getInstance().getDictionary(dir + "en_GB");
 
                 String words[] = {"Test", "Hest", "guest", "ombudsmandshat", "ombudsman",
                         "ymerfest", "grøftegraver", "hængeplante", "garageport", "postbil", "huskop",
@@ -67,10 +67,11 @@ public class HunspellMain {
 
                 for (String word : words) {
                     for (int j = 0; j < 3; j++) {
-                        if (d.misspelled(word)) {
+                        if (dictionary.misspelled(word)) {
                             print("misspelled: " + word);
-                            Iterator<String> itr = d.suggest(word).iterator();
+                            Iterator<String> itr = dictionary.suggest(word).iterator();
                             print("\tTry:");
+
                             while (itr.hasNext()) {
                                 String s = itr.next();
                                 print(" " + s);
