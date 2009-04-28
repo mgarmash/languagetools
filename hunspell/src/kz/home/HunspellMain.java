@@ -54,16 +54,19 @@ public class HunspellMain {
                 }
 
                 System.err.println("Loading Hunspell");
-                String dir = "c:\\_MY\\languageTools\\hunspell\\dict\\en_GB\\";
+                String lang = "ru_RU";
+                String dir = "c:\\_MY\\languageTools\\hunspell\\dict\\" + lang + "\\";
 
                 if (System.getProperties().containsKey("root")) dir = System.getProperty("root");
 
-                Hunspell.Dictionary dictionary = Hunspell.getInstance().getDictionary(dir + "en_GB");
+                Hunspell.Dictionary dictionary = Hunspell.getInstance().getDictionary(dir + lang);
 
-                String words[] = {"Test", "Hest", "guest", "ombudsmandshat", "ombudsman",
+                /*String words[] = {"Test", "Hest", "guest", "ombudsmandshat", "ombudsman",
                         "ymerfest", "grøftegraver", "hængeplante", "garageport", "postbil", "huskop",
                         "arne", "pladderballe", "Doctor", "Leo", "Lummerkrog",
-                        "Barnevognsbrand","barnehovedbeklædning"};
+                        "Barnevognsbrand","barnehovedbeklædning, mother"};*/
+
+                String words[] = {"Мама", "мамуленька", "маменька"};
 
                 for (String word : words) {
                     for (int j = 0; j < 3; j++) {
