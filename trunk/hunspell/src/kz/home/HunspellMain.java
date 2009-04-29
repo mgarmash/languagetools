@@ -38,9 +38,7 @@ public class HunspellMain {
         try {
             if (args.length == 1 && args[0].equals("-libname")) {
                 System.out.println(Hunspell.libName());
-
             } else {
-
                 try {
                     frame = new JFrame("Testing Hunspell");
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -66,7 +64,7 @@ public class HunspellMain {
                         "arne", "pladderballe", "Doctor", "Leo", "Lummerkrog",
                         "Barnevognsbrand","barnehovedbeklædning, mother"};*/
 
-                String words[] = {"Мама", "мамуленька", "маменька"};
+                String words[] = {"Мама", "мамуленька", "маменька", "компаниввю"};
 
                 for (String word : words) {
                     for (int j = 0; j < 3; j++) {
@@ -87,7 +85,6 @@ public class HunspellMain {
                     }
                 }
             }
-
         } catch (Exception e) {
             println("Failed: "+e);
         }
