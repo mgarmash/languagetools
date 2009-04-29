@@ -73,9 +73,7 @@ public class Hunspell {
             libFile = libName();
             InputStream is = Hunspell.class.getResourceAsStream("/"+libFile);
             if (is == null) {
-                throw new UnsatisfiedLinkError("Can't find "+libFile+
-                        " in the filesystem nor in the classpath\n"+
-                        urgh);
+                throw new UnsatisfiedLinkError("Can't find " + libFile + " in the filesystem nor in the classpath\n" +urgh);
             }
 
             // Extract the library from the classpath into a temp file.
